@@ -90,7 +90,7 @@ namespace MatrixCreator
                 throw new ArgumentException("Matrix dimensions don't allow the operation.");
             }
 
-            // perform subtraction
+            // perform multiplication
             Matrix c = new Matrix(aRows, aCols);
             for (int row = 0; row < aRows; row++)
             {

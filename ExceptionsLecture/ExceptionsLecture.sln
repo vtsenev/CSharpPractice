@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1Sqrt", "Task1Sqrt\Task1Sqrt.csproj", "{FE552189-597F-47F2-8DB6-1E53D7A0AF8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2ReadNumber", "Task2ReadNumber\Task2ReadNumber.csproj", "{B7F79006-C17E-4487-B273-76F2E2A36363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3ReadFile", "Task3ReadFile\Task3ReadFile.csproj", "{4C8BDB5B-6517-4ADF-94B1-4EC878FD2107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4DownloadFile", "Task4DownloadFile\Task4DownloadFile.csproj", "{86E60AE5-932B-4158-995E-0152EC136F4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE552189-597F-47F2-8DB6-1E53D7A0AF8E}.Debug|x86.ActiveCfg = Debug|x86
+		{FE552189-597F-47F2-8DB6-1E53D7A0AF8E}.Debug|x86.Build.0 = Debug|x86
+		{FE552189-597F-47F2-8DB6-1E53D7A0AF8E}.Release|x86.ActiveCfg = Release|x86
+		{FE552189-597F-47F2-8DB6-1E53D7A0AF8E}.Release|x86.Build.0 = Release|x86
+		{B7F79006-C17E-4487-B273-76F2E2A36363}.Debug|x86.ActiveCfg = Debug|x86
+		{B7F79006-C17E-4487-B273-76F2E2A36363}.Debug|x86.Build.0 = Debug|x86
+		{B7F79006-C17E-4487-B273-76F2E2A36363}.Release|x86.ActiveCfg = Release|x86
+		{B7F79006-C17E-4487-B273-76F2E2A36363}.Release|x86.Build.0 = Release|x86
+		{4C8BDB5B-6517-4ADF-94B1-4EC878FD2107}.Debug|x86.ActiveCfg = Debug|x86
+		{4C8BDB5B-6517-4ADF-94B1-4EC878FD2107}.Debug|x86.Build.0 = Debug|x86
+		{4C8BDB5B-6517-4ADF-94B1-4EC878FD2107}.Release|x86.ActiveCfg = Release|x86
+		{4C8BDB5B-6517-4ADF-94B1-4EC878FD2107}.Release|x86.Build.0 = Release|x86
+		{86E60AE5-932B-4158-995E-0152EC136F4E}.Debug|x86.ActiveCfg = Debug|x86
+		{86E60AE5-932B-4158-995E-0152EC136F4E}.Debug|x86.Build.0 = Debug|x86
+		{86E60AE5-932B-4158-995E-0152EC136F4E}.Release|x86.ActiveCfg = Release|x86
+		{86E60AE5-932B-4158-995E-0152EC136F4E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

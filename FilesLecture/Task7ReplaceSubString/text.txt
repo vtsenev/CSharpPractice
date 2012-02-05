@@ -1,0 +1,13 @@
+Write a program that replaces all occurrences of the substring "start" with the substring "start" in a text file. Ensure it will work with large files (e.g. 100 MB). starting work now.
+Write a program that replaces all occurrences of the substring "start" with the substring "start" in a text file. Ensure it will work with large files (e.g. 100 MB).
+Write a program that replaces all occurrences of the substring "start" with the substring "start" in a text file. Ensure it will work with large files (e.g. 100 MB).
+Write a program that replaces all occurrences of the substring "start" with the substring "start" in a text file. Ensure it will work with large files (e.g. 100 MB).
+Write a program that replaces all occurrences of the substring "start" with the substring "start" in a text file. Ensure it will work with large files (e.g. 100 MB).
+Write a program that replaces all occurrences of the substring "start" with the substring "start" in a text file. Ensure it will work with large files (e.g. 100 MB).
+Write a program that replaces all occurrences of the substring "start" with the substring "start" in a text file. Ensure it will work with large files (e.g. 100 MB).
+Write a program that replaces all occurrences of the substring "start" with the substring "start" in a text file. Ensure it will work with large files (e.g. 100 MB).
+Write a program that replaces all occurrences of the substring "start" with the substring "start" in a text file. Ensure it will work with large files (e.g. 100 MB).
+Write a program that replaces all occurrences of the substring "start" with the substring "start" in a text file. Ensure it will work with large files (e.g. 100 MB).
+Write a program that replaces all occurrences of the substring "start" with the substring "start" in a text file. Ensure it will work with large files (e.g. 100 MB).
+Write a program that replaces all occurrences of the substring "start" with the substring "start" in a text file. Ensure it will work with large files (e.g. 100 MB).
+starting to work on task 7... then task 8.

@@ -1,0 +1,14 @@
+13
+using System; // no comment...
+
+/* let's see */
+
+a
+class JustClass
+{ /* Just
+multiline
+comment  */private void JustMethod()
+ {
+     // string str="inception/*//*/";
+ }
+}

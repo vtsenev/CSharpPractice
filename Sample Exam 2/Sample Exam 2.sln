@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1GenomeDecoder", "Task1GenomeDecoder\Task1GenomeDecoder.csproj", "{DDB64F27-F501-4079-9C9D-9BB2655595EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2TicTacToe", "Task2TicTacToe\Task2TicTacToe.csproj", "{258E4E0A-1146-4894-9437-5607B6AA83F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3AirplaneDrinks", "Task3AirplaneDrinks\Task3AirplaneDrinks.csproj", "{3C702C1D-5987-4EC1-8DC6-0BB2F0CB88B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDB64F27-F501-4079-9C9D-9BB2655595EB}.Debug|x86.ActiveCfg = Debug|x86
+		{DDB64F27-F501-4079-9C9D-9BB2655595EB}.Debug|x86.Build.0 = Debug|x86
+		{DDB64F27-F501-4079-9C9D-9BB2655595EB}.Release|x86.ActiveCfg = Release|x86
+		{DDB64F27-F501-4079-9C9D-9BB2655595EB}.Release|x86.Build.0 = Release|x86
+		{258E4E0A-1146-4894-9437-5607B6AA83F1}.Debug|x86.ActiveCfg = Debug|x86
+		{258E4E0A-1146-4894-9437-5607B6AA83F1}.Debug|x86.Build.0 = Debug|x86
+		{258E4E0A-1146-4894-9437-5607B6AA83F1}.Release|x86.ActiveCfg = Release|x86
+		{258E4E0A-1146-4894-9437-5607B6AA83F1}.Release|x86.Build.0 = Release|x86
+		{3C702C1D-5987-4EC1-8DC6-0BB2F0CB88B7}.Debug|x86.ActiveCfg = Debug|x86
+		{3C702C1D-5987-4EC1-8DC6-0BB2F0CB88B7}.Debug|x86.Build.0 = Debug|x86
+		{3C702C1D-5987-4EC1-8DC6-0BB2F0CB88B7}.Release|x86.ActiveCfg = Release|x86
+		{3C702C1D-5987-4EC1-8DC6-0BB2F0CB88B7}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

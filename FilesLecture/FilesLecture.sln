@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1ReadAndPrint", "Task1ReadAndPrint\Task1ReadAndPrint.csproj", "{438133C4-09C3-4DF3-B695-239979581800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2ConcatTextFiles", "Task2ConcatTextFiles\Task2ConcatTextFiles.csproj", "{F1729D6C-B8B1-44EC-9E53-BDEB5E63A035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3AddLineNumbers", "Task3AddLineNumbers\Task3AddLineNumbers.csproj", "{FEE571F7-EE13-4D20-9025-0FBEB6EF31AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4CompareFiles", "Task4CompareFiles\Task4CompareFiles.csproj", "{8E90539F-1634-414B-8937-9FC6A4254E3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5ReadMatrixFindMaxSum", "Task5ReadMatrixFindMaxSum\Task5ReadMatrixFindMaxSum.csproj", "{D2CA90FB-2483-43C8-A49E-33B82C6E6B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6SortStrings", "Task6SortStrings\Task6SortStrings.csproj", "{118E2DED-3D28-47A0-A37E-A79B41D2614C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task7ReplaceSubString", "Task7ReplaceSubString\Task7ReplaceSubString.csproj", "{77610DAB-BDF5-435C-81DA-08864A945447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task8ReplaceWord", "Task8ReplaceWord\Task8ReplaceWord.csproj", "{26AC6F9D-7E9B-4C02-ADEF-199125430584}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{438133C4-09C3-4DF3-B695-239979581800}.Debug|x86.ActiveCfg = Debug|x86
+		{438133C4-09C3-4DF3-B695-239979581800}.Debug|x86.Build.0 = Debug|x86
+		{438133C4-09C3-4DF3-B695-239979581800}.Release|x86.ActiveCfg = Release|x86
+		{438133C4-09C3-4DF3-B695-239979581800}.Release|x86.Build.0 = Release|x86
+		{F1729D6C-B8B1-44EC-9E53-BDEB5E63A035}.Debug|x86.ActiveCfg = Debug|x86
+		{F1729D6C-B8B1-44EC-9E53-BDEB5E63A035}.Debug|x86.Build.0 = Debug|x86
+		{F1729D6C-B8B1-44EC-9E53-BDEB5E63A035}.Release|x86.ActiveCfg = Release|x86
+		{F1729D6C-B8B1-44EC-9E53-BDEB5E63A035}.Release|x86.Build.0 = Release|x86
+		{FEE571F7-EE13-4D20-9025-0FBEB6EF31AA}.Debug|x86.ActiveCfg = Debug|x86
+		{FEE571F7-EE13-4D20-9025-0FBEB6EF31AA}.Debug|x86.Build.0 = Debug|x86
+		{FEE571F7-EE13-4D20-9025-0FBEB6EF31AA}.Release|x86.ActiveCfg = Release|x86
+		{FEE571F7-EE13-4D20-9025-0FBEB6EF31AA}.Release|x86.Build.0 = Release|x86
+		{8E90539F-1634-414B-8937-9FC6A4254E3B}.Debug|x86.ActiveCfg = Debug|x86
+		{8E90539F-1634-414B-8937-9FC6A4254E3B}.Debug|x86.Build.0 = Debug|x86
+		{8E90539F-1634-414B-8937-9FC6A4254E3B}.Release|x86.ActiveCfg = Release|x86
+		{8E90539F-1634-414B-8937-9FC6A4254E3B}.Release|x86.Build.0 = Release|x86
+		{D2CA90FB-2483-43C8-A49E-33B82C6E6B9D}.Debug|x86.ActiveCfg = Debug|x86
+		{D2CA90FB-2483-43C8-A49E-33B82C6E6B9D}.Debug|x86.Build.0 = Debug|x86
+		{D2CA90FB-2483-43C8-A49E-33B82C6E6B9D}.Release|x86.ActiveCfg = Release|x86
+		{D2CA90FB-2483-43C8-A49E-33B82C6E6B9D}.Release|x86.Build.0 = Release|x86
+		{118E2DED-3D28-47A0-A37E-A79B41D2614C}.Debug|x86.ActiveCfg = Debug|x86
+		{118E2DED-3D28-47A0-A37E-A79B41D2614C}.Debug|x86.Build.0 = Debug|x86
+		{118E2DED-3D28-47A0-A37E-A79B41D2614C}.Release|x86.ActiveCfg = Release|x86
+		{118E2DED-3D28-47A0-A37E-A79B41D2614C}.Release|x86.Build.0 = Release|x86
+		{77610DAB-BDF5-435C-81DA-08864A945447}.Debug|x86.ActiveCfg = Debug|x86
+		{77610DAB-BDF5-435C-81DA-08864A945447}.Debug|x86.Build.0 = Debug|x86
+		{77610DAB-BDF5-435C-81DA-08864A945447}.Release|x86.ActiveCfg = Release|x86
+		{77610DAB-BDF5-435C-81DA-08864A945447}.Release|x86.Build.0 = Release|x86
+		{26AC6F9D-7E9B-4C02-ADEF-199125430584}.Debug|x86.ActiveCfg = Debug|x86
+		{26AC6F9D-7E9B-4C02-ADEF-199125430584}.Debug|x86.Build.0 = Debug|x86
+		{26AC6F9D-7E9B-4C02-ADEF-199125430584}.Release|x86.ActiveCfg = Release|x86
+		{26AC6F9D-7E9B-4C02-ADEF-199125430584}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

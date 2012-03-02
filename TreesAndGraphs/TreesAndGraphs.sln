@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1TraverseDir", "Task1TraverseDir\Task1TraverseDir.csproj", "{8A3137C4-8DB9-4AD1-AEFD-6A222A67E0D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2FileTree", "Task2FileTree\Task2FileTree.csproj", "{60964B8C-745A-41B1-9E9F-32DB135E631F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3DFS", "Task3DFS\Task3DFS.csproj", "{D5052407-F8FF-4B78-88D5-6A44B6E163E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4BFS", "Task4BFS\Task4BFS.csproj", "{D56975BB-2AE0-405B-89BE-AF08E53F5578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task7Dijkstra", "Task7Dijkstra\Task7Dijkstra.csproj", "{4089EA4F-152A-470F-8FC0-B2FBDB5DB88D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5FindCycles", "Task5FindCycles\Task5FindCycles.csproj", "{BFBE8B1C-F7C0-47CB-8B57-53BC7A0B35EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6FindConnectedComponents", "Task6FindConnectedComponents\Task6FindConnectedComponents.csproj", "{8A6CCD36-43B4-472E-8595-509C7F1922CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task8TaskOrder", "Task8TaskOrder\Task8TaskOrder.csproj", "{8CA79C67-9203-4F47-9449-B1D58F0742A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A3137C4-8DB9-4AD1-AEFD-6A222A67E0D8}.Debug|x86.ActiveCfg = Debug|x86
+		{8A3137C4-8DB9-4AD1-AEFD-6A222A67E0D8}.Debug|x86.Build.0 = Debug|x86
+		{8A3137C4-8DB9-4AD1-AEFD-6A222A67E0D8}.Release|x86.ActiveCfg = Release|x86
+		{8A3137C4-8DB9-4AD1-AEFD-6A222A67E0D8}.Release|x86.Build.0 = Release|x86
+		{60964B8C-745A-41B1-9E9F-32DB135E631F}.Debug|x86.ActiveCfg = Debug|x86
+		{60964B8C-745A-41B1-9E9F-32DB135E631F}.Debug|x86.Build.0 = Debug|x86
+		{60964B8C-745A-41B1-9E9F-32DB135E631F}.Release|x86.ActiveCfg = Release|x86
+		{60964B8C-745A-41B1-9E9F-32DB135E631F}.Release|x86.Build.0 = Release|x86
+		{D5052407-F8FF-4B78-88D5-6A44B6E163E6}.Debug|x86.ActiveCfg = Debug|x86
+		{D5052407-F8FF-4B78-88D5-6A44B6E163E6}.Debug|x86.Build.0 = Debug|x86
+		{D5052407-F8FF-4B78-88D5-6A44B6E163E6}.Release|x86.ActiveCfg = Release|x86
+		{D5052407-F8FF-4B78-88D5-6A44B6E163E6}.Release|x86.Build.0 = Release|x86
+		{D56975BB-2AE0-405B-89BE-AF08E53F5578}.Debug|x86.ActiveCfg = Debug|x86
+		{D56975BB-2AE0-405B-89BE-AF08E53F5578}.Debug|x86.Build.0 = Debug|x86
+		{D56975BB-2AE0-405B-89BE-AF08E53F5578}.Release|x86.ActiveCfg = Release|x86
+		{D56975BB-2AE0-405B-89BE-AF08E53F5578}.Release|x86.Build.0 = Release|x86
+		{4089EA4F-152A-470F-8FC0-B2FBDB5DB88D}.Debug|x86.ActiveCfg = Debug|x86
+		{4089EA4F-152A-470F-8FC0-B2FBDB5DB88D}.Debug|x86.Build.0 = Debug|x86
+		{4089EA4F-152A-470F-8FC0-B2FBDB5DB88D}.Release|x86.ActiveCfg = Release|x86
+		{4089EA4F-152A-470F-8FC0-B2FBDB5DB88D}.Release|x86.Build.0 = Release|x86
+		{BFBE8B1C-F7C0-47CB-8B57-53BC7A0B35EA}.Debug|x86.ActiveCfg = Debug|x86
+		{BFBE8B1C-F7C0-47CB-8B57-53BC7A0B35EA}.Debug|x86.Build.0 = Debug|x86
+		{BFBE8B1C-F7C0-47CB-8B57-53BC7A0B35EA}.Release|x86.ActiveCfg = Release|x86
+		{BFBE8B1C-F7C0-47CB-8B57-53BC7A0B35EA}.Release|x86.Build.0 = Release|x86
+		{8A6CCD36-43B4-472E-8595-509C7F1922CD}.Debug|x86.ActiveCfg = Debug|x86
+		{8A6CCD36-43B4-472E-8595-509C7F1922CD}.Debug|x86.Build.0 = Debug|x86
+		{8A6CCD36-43B4-472E-8595-509C7F1922CD}.Release|x86.ActiveCfg = Release|x86
+		{8A6CCD36-43B4-472E-8595-509C7F1922CD}.Release|x86.Build.0 = Release|x86
+		{8CA79C67-9203-4F47-9449-B1D58F0742A9}.Debug|x86.ActiveCfg = Debug|x86
+		{8CA79C67-9203-4F47-9449-B1D58F0742A9}.Debug|x86.Build.0 = Debug|x86
+		{8CA79C67-9203-4F47-9449-B1D58F0742A9}.Release|x86.ActiveCfg = Release|x86
+		{8CA79C67-9203-4F47-9449-B1D58F0742A9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

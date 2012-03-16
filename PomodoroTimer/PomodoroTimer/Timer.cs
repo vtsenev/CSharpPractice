@@ -66,6 +66,15 @@ namespace PomodoroTimer
             get { return this.totalTime; }
         }
 
+        public int ProgressInPercent
+        {
+            get
+            {
+                double progress = (secondsPassed / (double)totalTime) * 100;
+                return (int)progress;
+            }
+        }
+
         private int CalculateTimeLeft(int minutesToGo)
         {
             int secondsLeft = minutesToGo * 60;

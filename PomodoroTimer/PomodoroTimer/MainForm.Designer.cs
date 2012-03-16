@@ -40,6 +40,7 @@
             this.ProgressLabel = new System.Windows.Forms.Label();
             this.StatusLabel = new System.Windows.Forms.Label();
             this.CountDownLabel = new System.Windows.Forms.Label();
+            this.ResetTimerBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CloseBtn
@@ -103,10 +104,18 @@
             resources.ApplyResources(this.CountDownLabel, "CountDownLabel");
             this.CountDownLabel.Name = "CountDownLabel";
             // 
+            // ResetTimerBtn
+            // 
+            resources.ApplyResources(this.ResetTimerBtn, "ResetTimerBtn");
+            this.ResetTimerBtn.Name = "ResetTimerBtn";
+            this.ResetTimerBtn.UseVisualStyleBackColor = true;
+            this.ResetTimerBtn.Click += new System.EventHandler(this.ResetTimerBtn_Click);
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.ResetTimerBtn);
             this.Controls.Add(this.CountDownLabel);
             this.Controls.Add(this.StatusLabel);
             this.Controls.Add(this.ProgressLabel);
@@ -137,6 +146,7 @@
         private System.Windows.Forms.Label ProgressLabel;
         private System.Windows.Forms.Label StatusLabel;
         private System.Windows.Forms.Label CountDownLabel;
+        private System.Windows.Forms.Button ResetTimerBtn;
     }
 }
 

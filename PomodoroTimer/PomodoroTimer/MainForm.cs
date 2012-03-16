@@ -46,21 +46,21 @@ namespace PomodoroTimer
             SecondsTimer.Start();
             currentTimer = new Timer("pomodoro");
             currentState = "pomodoro running";
-            UpdateLabelsAndProgressBar();
+            UpdateProgress();
         }
 
         private void ContinuePomodoro()
         {
             SecondsTimer.Start();
             currentState = "pomodoro running";
-            UpdateLabelsAndProgressBar();
+            UpdateProgress();
         }
 
         private void ContinueBreak()
         {
             SecondsTimer.Start();
             currentState = "break running";
-            UpdateLabelsAndProgressBar();
+            UpdateProgress();
         }
 
         private void StartBreak()
@@ -75,7 +75,7 @@ namespace PomodoroTimer
                 StartShortBreak();
             }
             currentState = "break running";
-            UpdateLabelsAndProgressBar();
+            UpdateProgress();
         }
 
         private void StartShortBreak()
@@ -91,7 +91,7 @@ namespace PomodoroTimer
         private void SecondsTimer_Tick(object sender, EventArgs e)
         {
             currentTimer.IncrementSecondsByOne();
-            UpdateLabelsAndProgressBar();
+            UpdateProgress();
             if (currentTimer.IsTimeOver())
             {
                 DoTransition();
@@ -117,25 +117,18 @@ namespace PomodoroTimer
             }
         }
 
-        private void UpdateLabelsAndProgressBar()
+        private void UpdateProgress()
         {
             PomodoroCountLabel.Text = "Pomodoros done: " + pomodoroCount.ToString();
             switch (currentState)
             {
                 case "pomodoro running":
                     StatusLabel.Text = "Status: " + currentState;
-                    int minutes = currentTimer.TimeLeft / 60;
-                    int seconds = currentTimer.TimeLeft % 60;
-                    CountDownLabel.Text = String.Format("{0:00}:{1:00}",  minutes, seconds);
-                    UpdateProgressBarWithOnePercent(currentTimer.TotalTime / 100);
+                    UpdateLabelsAndProgressBar();
                     break;
                 case "break running":
                     StatusLabel.Text = "Status: " + currentTimer.State;
-                    minutes = currentTimer.TimeLeft / 60;
-                    seconds = currentTimer.TimeLeft % 60;
-                    CountDownLabel.Text = String.Format("{0:00}:{1:00}", minutes, seconds);
-                    UpdateProgressBarWithOnePercent(currentTimer.TotalTime / 100);
-                    ProgressLabel.Text = ProgressPomodoro.Value.ToString() + " %";
+                    UpdateLabelsAndProgressBar();
                     break;
                 case "paused pomodoro":
                 case "paused break":
@@ -152,13 +145,13 @@ namespace PomodoroTimer
             }
         }
 
-        private void UpdateProgressBarWithOnePercent(int onePercentInSeconds)
+        private void UpdateLabelsAndProgressBar()
         {
-            if (currentTimer.SecondsPassed % onePercentInSeconds == 0 && currentTimer.SecondsPassed != 0)
-            {
-                ProgressPomodoro.Value++;
-                ProgressLabel.Text = ProgressPomodoro.Value.ToString() + " %";
-            }
+            int minutes = currentTimer.TimeLeft / 60;
+            int seconds = currentTimer.TimeLeft % 60;
+            CountDownLabel.Text = String.Format("{0:00}:{1:00}", minutes, seconds);
+            ProgressPomodoro.Value = currentTimer.ProgressInPercent;
+            ProgressLabel.Text = currentTimer.ProgressInPercent.ToString() + " %";
         }
 
         private void PauseBtn_Click(object sender, EventArgs e)
@@ -172,14 +165,14 @@ namespace PomodoroTimer
                 case "paused break": break;
                 default: throw new ArgumentException("Wrong state: {0}.", currentState);
             }
-            UpdateLabelsAndProgressBar();
+            UpdateProgress();
             PauseBtn.Enabled = false;
             StartBtn.Enabled = true;
         }
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            UpdateLabelsAndProgressBar();
+            UpdateProgress();
             PauseBtn.Enabled = false;
         }
 
@@ -188,9 +181,25 @@ namespace PomodoroTimer
             SecondsTimer.Stop();
             pomodoroCount = 0;
             currentState = "none";
-            UpdateLabelsAndProgressBar();
+            UpdateProgress();
             StartBtn.Enabled = true;
             PauseBtn.Enabled = false;
+        }
+
+        private void ResetTimerBtn_Click(object sender, EventArgs e)
+        {
+            SecondsTimer.Stop();
+            switch (currentState)
+            {
+                case "paused pomodoro":
+                case "pomodoro running": StartPomodoro(); break;
+                case "paused break":
+                case "break running": StartBreak(); break;
+                case "none": break;
+                default: throw new ArgumentException("Wrong state: {0}.", currentState);
+            }
+            StartBtn.Enabled = false;
+            PauseBtn.Enabled = true;
         }
     }
 }

@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="CloseBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 304</value>
+    <value>155, 258</value>
   </data>
   <data name="CloseBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -141,7 +141,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CloseBtn.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="ProgressPomodoro.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 64</value>
@@ -162,10 +162,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ProgressPomodoro.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="StartBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 121</value>
+    <value>155, 164</value>
   </data>
   <data name="StartBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -186,10 +186,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;StartBtn.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="PauseBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 171</value>
+    <value>155, 211</value>
   </data>
   <data name="PauseBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -210,7 +210,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;PauseBtn.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="PomodoroCountLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -237,7 +237,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;PomodoroCountLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="ResetBtn.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -246,13 +246,13 @@
     <value>235, 20</value>
   </data>
   <data name="ResetBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>98, 23</value>
   </data>
   <data name="ResetBtn.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
   <data name="ResetBtn.Text" xml:space="preserve">
-    <value>&amp;Reset</value>
+    <value>&amp;Reset Everything</value>
   </data>
   <data name="&gt;&gt;ResetBtn.Name" xml:space="preserve">
     <value>ResetBtn</value>
@@ -264,7 +264,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ResetBtn.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <metadata name="SecondsTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -294,19 +294,23 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ProgressLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="StatusLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="StatusLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
   <data name="StatusLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="StatusLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 131</value>
+    <value>0, 324</value>
   </data>
   <data name="StatusLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 13</value>
+    <value>99, 15</value>
   </data>
   <data name="StatusLabel.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -324,6 +328,33 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;StatusLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CountDownLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CountDownLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 127</value>
+  </data>
+  <data name="CountDownLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="CountDownLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="CountDownLabel.Text" xml:space="preserve">
+    <value>00:00</value>
+  </data>
+  <data name="&gt;&gt;CountDownLabel.Name" xml:space="preserve">
+    <value>CountDownLabel</value>
+  </data>
+  <data name="&gt;&gt;CountDownLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CountDownLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CountDownLabel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

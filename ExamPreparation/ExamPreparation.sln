@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberFrequency", "NumberFrequency\NumberFrequency.csproj", "{1EE92783-4A05-4EC5-8D85-3282C52B5512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7SegmentDigits", "7SegmentDigits\7SegmentDigits.csproj", "{BC9CF2BB-F6F0-422F-ABD8-EC51F3ADAA1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7SegmentsTelerikSolution", "7SegmentsTelerikSolution\7SegmentsTelerikSolution.csproj", "{F3741182-9BC7-4C55-A05C-F81AED9B3713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagesInABottle", "MessagesInABottle\MessagesInABottle.csproj", "{D0218B09-4FAB-41D8-889F-EA7A90D21B29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagesBottleTelerikSolution", "MessagesBottleTelerikSolution\MessagesBottleTelerikSolution.csproj", "{FD64AFBD-0D4F-4D1C-B10D-990AD32DA814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crossword", "Crossword\Crossword.csproj", "{9A9BC829-2627-47F0-BAA0-034D2E4957B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrosswordTelerikSolutions", "CrosswordTelerikSolutions\CrosswordTelerikSolutions.csproj", "{A2C3D2D6-A343-4433-92A6-EBA8992A642D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tubes", "Tubes\Tubes.csproj", "{BC35AFE4-9C9F-41DD-89FB-F68E7CD6E88A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EE92783-4A05-4EC5-8D85-3282C52B5512}.Debug|x86.ActiveCfg = Debug|x86
+		{1EE92783-4A05-4EC5-8D85-3282C52B5512}.Debug|x86.Build.0 = Debug|x86
+		{1EE92783-4A05-4EC5-8D85-3282C52B5512}.Release|x86.ActiveCfg = Release|x86
+		{1EE92783-4A05-4EC5-8D85-3282C52B5512}.Release|x86.Build.0 = Release|x86
+		{BC9CF2BB-F6F0-422F-ABD8-EC51F3ADAA1D}.Debug|x86.ActiveCfg = Debug|x86
+		{BC9CF2BB-F6F0-422F-ABD8-EC51F3ADAA1D}.Debug|x86.Build.0 = Debug|x86
+		{BC9CF2BB-F6F0-422F-ABD8-EC51F3ADAA1D}.Release|x86.ActiveCfg = Release|x86
+		{BC9CF2BB-F6F0-422F-ABD8-EC51F3ADAA1D}.Release|x86.Build.0 = Release|x86
+		{F3741182-9BC7-4C55-A05C-F81AED9B3713}.Debug|x86.ActiveCfg = Debug|x86
+		{F3741182-9BC7-4C55-A05C-F81AED9B3713}.Debug|x86.Build.0 = Debug|x86
+		{F3741182-9BC7-4C55-A05C-F81AED9B3713}.Release|x86.ActiveCfg = Release|x86
+		{F3741182-9BC7-4C55-A05C-F81AED9B3713}.Release|x86.Build.0 = Release|x86
+		{D0218B09-4FAB-41D8-889F-EA7A90D21B29}.Debug|x86.ActiveCfg = Debug|x86
+		{D0218B09-4FAB-41D8-889F-EA7A90D21B29}.Debug|x86.Build.0 = Debug|x86
+		{D0218B09-4FAB-41D8-889F-EA7A90D21B29}.Release|x86.ActiveCfg = Release|x86
+		{D0218B09-4FAB-41D8-889F-EA7A90D21B29}.Release|x86.Build.0 = Release|x86
+		{FD64AFBD-0D4F-4D1C-B10D-990AD32DA814}.Debug|x86.ActiveCfg = Debug|x86
+		{FD64AFBD-0D4F-4D1C-B10D-990AD32DA814}.Debug|x86.Build.0 = Debug|x86
+		{FD64AFBD-0D4F-4D1C-B10D-990AD32DA814}.Release|x86.ActiveCfg = Release|x86
+		{FD64AFBD-0D4F-4D1C-B10D-990AD32DA814}.Release|x86.Build.0 = Release|x86
+		{9A9BC829-2627-47F0-BAA0-034D2E4957B2}.Debug|x86.ActiveCfg = Debug|x86
+		{9A9BC829-2627-47F0-BAA0-034D2E4957B2}.Debug|x86.Build.0 = Debug|x86
+		{9A9BC829-2627-47F0-BAA0-034D2E4957B2}.Release|x86.ActiveCfg = Release|x86
+		{9A9BC829-2627-47F0-BAA0-034D2E4957B2}.Release|x86.Build.0 = Release|x86
+		{A2C3D2D6-A343-4433-92A6-EBA8992A642D}.Debug|x86.ActiveCfg = Debug|x86
+		{A2C3D2D6-A343-4433-92A6-EBA8992A642D}.Debug|x86.Build.0 = Debug|x86
+		{A2C3D2D6-A343-4433-92A6-EBA8992A642D}.Release|x86.ActiveCfg = Release|x86
+		{A2C3D2D6-A343-4433-92A6-EBA8992A642D}.Release|x86.Build.0 = Release|x86
+		{BC35AFE4-9C9F-41DD-89FB-F68E7CD6E88A}.Debug|x86.ActiveCfg = Debug|x86
+		{BC35AFE4-9C9F-41DD-89FB-F68E7CD6E88A}.Debug|x86.Build.0 = Debug|x86
+		{BC35AFE4-9C9F-41DD-89FB-F68E7CD6E88A}.Release|x86.ActiveCfg = Release|x86
+		{BC35AFE4-9C9F-41DD-89FB-F68E7CD6E88A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
